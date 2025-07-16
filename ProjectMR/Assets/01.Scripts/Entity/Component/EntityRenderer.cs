@@ -1,8 +1,17 @@
+using ProjectMR.Animation;
 using System;
 using UnityEngine;
 
 namespace ProjectMR.Entity
 {
+    [Flags]
+    public enum EAnimationEventType
+    {
+        Start = 1,
+        End = 2,
+        Trigger = 4,
+    }
+
     public class EntityRenderer : MonoBehaviour,IEntityComponent
     {
         public float FacingDirection { get; private set; } = 1;

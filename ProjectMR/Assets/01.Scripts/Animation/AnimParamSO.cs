@@ -1,9 +1,9 @@
 using UnityEngine;
 
-namespace ProjectMR
+namespace ProjectMR.Animation
 {
     [CreateAssetMenu(fileName = "AnimParmSO", menuName = "Scriptable Objects/AnimParmSO")]
-    public class AnimParmSO : ScriptableObject
+    public class AnimParamSO : ScriptableObject
     {
         public enum ParamType
         {
