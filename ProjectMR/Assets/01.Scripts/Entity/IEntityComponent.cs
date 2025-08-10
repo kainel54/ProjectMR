@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ProjectMR.Entity
+namespace ProjectMR.Entities
 {
     public interface IEntityComponent
     {

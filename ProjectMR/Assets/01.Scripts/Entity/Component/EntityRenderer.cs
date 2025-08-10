@@ -2,7 +2,7 @@ using ProjectMR.Animation;
 using System;
 using UnityEngine;
 
-namespace ProjectMR.Entity
+namespace ProjectMR.Entities
 {
     [Flags]
     public enum EAnimationEventType

@@ -2,7 +2,7 @@ using ProjectMR.Stat;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ProjectMR.Entity
+namespace ProjectMR.Entities
 {
     public class EntityStat : MonoBehaviour,IEntityComponent
     {

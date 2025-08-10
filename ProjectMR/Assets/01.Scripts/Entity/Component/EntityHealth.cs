@@ -7,7 +7,7 @@ using UnityEngine;
 using Random = UnityEngine.Random;
 using Vector3 = UnityEngine.Vector3;
 
-namespace ProjectMR.Entity
+namespace ProjectMR.Entities
 {
     public class EntityHealth : MonoBehaviour,IEntityComponent,IAfterInitComponent
     {
